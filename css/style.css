@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 23%;
+    height: 70%;
+    padding: 25px;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 10px;
+    color: white;
+    overflow: hidden;
+    box-shadow: 1px 34px 1px 15px hsl(217, 54%, 11%);
+}
+
+.img {
+    width: 100%;
+    height: 60%;
+    background-image: url("/images/image-equilibrium.jpg");
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.details {
+    width: 100%;
+    height: 40%;
+    padding: 2px 0 0 0;
+}
+
+.defination {
+    color: hsl(215, 51%, 70%);
+}
+
+.value {
+    color: hsl(178, 100%, 50%);
+    float: left;
+    clear: right;
+}
+
+.days {
+    float: right;
+    color: hsl(215, 51%, 70%);
+}
+
+.self {
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pic {
+    padding: 0 10px 0px 0;
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.creation {
+    color: hsl(215, 51%, 70%);
+    padding: 0 5px 0 10px;
+}
+
+@media screen and (max-width:375px) {
+    .container{
+        height: auto;
+    }
+    .content{
+        width: 305px;
+        height: auto;
+        margin: 70px 10px;
+        display: block;
+    }
+    .img{
+        width: 100%;
+        height: 280px;
+        background-image: url("/images/image-equilibrium.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .details {
+        width: 100%;
+        height: auto;
+    }
+}
